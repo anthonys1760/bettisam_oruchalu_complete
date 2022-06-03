@@ -53,6 +53,10 @@
 	padding: 0;
 	margin: 0;
 }
+
+.about-img {
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px !important;
+}
 body{
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -2028,6 +2032,7 @@ a,a:hover, img, .form-control,  .form-control:hover, button{
     background-size: cover;
     background-position: center center;
     width: 100%;
+    background-attachment: fixed;
 }
 .cta-wrap{}
 .cta-content .section-heading span{
@@ -3195,9 +3200,9 @@ blockquote span{
     align-items: center;
     margin-top: 42px;
 }
-.details-social li{}
+/* .details-social li{} */
 .details-social li a{
-    background-color: #33;
+    background-color: #333;
     font-size: 12px;
     color: #fff;
     width: 65px;
